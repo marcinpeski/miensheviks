@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Miensheviks"
+title                    : "Mensheviks"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Arrogant and priviliged Council members, including entitled and powerful Zionists"
-description              : "Complaining about the University of Toronto and faculty association politics. On the left, but not completely insane. "
+name                     : "Arrogant and priviliged Council members, including (some) entitled and powerful Zionists"
+description              : "Complaining about the University of Toronto and faculty association politics. Labor rights, but not completely insane. "
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
