@@ -24,6 +24,11 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+    {% if post.date %}
+      <span style="font-family: Open Sans; font-weight: 300; font-size: 16px;font-style: italic">
+        {{ post.date | date: "%-d %B %Y" }}
+      </span>
+    {% endif %}
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
